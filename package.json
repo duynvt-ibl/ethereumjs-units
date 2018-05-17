@@ -1,8 +1,94 @@
 {
-  "name": "ethereumjs-units",
-  "version": "0.2.0",
+  "_args": [
+    [
+      {
+        "raw": "ethereumjs-units@^0.2.0",
+        "scope": null,
+        "escapedName": "ethereumjs-units",
+        "name": "ethereumjs-units",
+        "rawSpec": "^0.2.0",
+        "spec": ">=0.2.0 <0.3.0",
+        "type": "range"
+      },
+      "/Users/durex/Documents/QuantaWallet"
+    ]
+  ],
+  "_from": "ethereumjs-units@>=0.2.0 <0.3.0",
+  "_id": "ethereumjs-units@0.2.0",
+  "_inCache": true,
+  "_location": "/ethereumjs-units",
+  "_nodeVersion": "5.1.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/ethereumjs-units-0.2.0.tgz_1460583603746_0.7019114557188004"
+  },
+  "_npmUser": {
+    "name": "axic",
+    "email": "alex@rtfs.hu"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ethereumjs-units@^0.2.0",
+    "scope": null,
+    "escapedName": "ethereumjs-units",
+    "name": "ethereumjs-units",
+    "rawSpec": "^0.2.0",
+    "spec": ">=0.2.0 <0.3.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ethereumjs-units/-/ethereumjs-units-0.2.0.tgz",
+  "_shasum": "6ea31132aabc2cc7b8a5290e265593a337687fa3",
+  "_shrinkwrap": null,
+  "_spec": "ethereumjs-units@^0.2.0",
+  "_where": "/Users/durex/Documents/QuantaWallet",
+  "author": {
+    "name": "Alex Beregszaszi",
+    "email": "alex@rtfs.hu"
+  },
+  "bugs": {
+    "url": "https://github.com/ethereumjs/ethereumjs-units/issues"
+  },
+  "dependencies": {
+    "bignumber.js": "4.1.0"
+  },
   "description": "Ethereum unit conversion.",
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "standard": "^5.4.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6ea31132aabc2cc7b8a5290e265593a337687fa3",
+    "tarball": "https://registry.npmjs.org/ethereumjs-units/-/ethereumjs-units-0.2.0.tgz"
+  },
+  "gitHead": "a116b4f3712a07c3a239d414f518bdedbea6a57c",
+  "homepage": "https://github.com/ethereumjs/ethereumjs-units#readme",
+  "keywords": [
+    "ethereum",
+    "units",
+    "conversion"
+  ],
+  "license": "MIT",
   "main": "index.js",
+  "maintainers": [
+    {
+      "name": "axic",
+      "email": "alex@rtfs.hu"
+    }
+  ],
+  "name": "ethereumjs-units",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereumjs/ethereumjs-units.git"
+  },
   "scripts": {
     "coverage": "istanbul cover _mocha",
     "coveralls": "npm run coverage && coveralls <coverage/lcov.info",
@@ -10,34 +96,63 @@
     "prepublish": "npm run lint && npm run test",
     "test": "istanbul test mocha -- --reporter spec"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ethereumjs/ethereumjs-units.git"
-  },
-  "keywords": [
-    "ethereum",
-    "units",
-    "conversion"
-  ],
-  "author": "Alex Beregszaszi <alex@rtfs.hu>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-units/issues"
-  },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-units#readme",
-  "dependencies": {
-    "bignumber.js": "^2.3.0"
-  },
-  "devDependencies": {
-    "coveralls": "^2.11.4",
-    "istanbul": "^0.4.1",
-    "mocha": "^2.3.4",
-    "standard": "^5.4.1"
-  },
   "standard": {
     "globals": [
       "describe",
       "it"
     ]
+  },
+  "version": "0.2.0",
+  "react-native": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "dgram": "react-native-udp",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "dgram": "react-native-udp",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
   }
 }
